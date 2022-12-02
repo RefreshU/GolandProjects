@@ -26,13 +26,13 @@ import (
 	fmt.Println("dir1 =>",string(dir1)) //prints: dir1 => AAAAsuffix
 	fmt.Println("dir2 =>",string(dir2)) //prints: dir2 => uffixBBBB
 }*/
-//type Country struct {
-//	Name string
-//}
-//
-//type City struct {
-//	Name string
-//}
+type Country struct {
+	Name string
+}
+
+type City struct {
+	Name string
+}
 //
 //type Stringable interface {
 //	ToString() string
